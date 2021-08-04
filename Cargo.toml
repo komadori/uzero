@@ -1,0 +1,15 @@
+[package]
+name = "uzero"
+version = "0.1.0"
+authors = ["Robin KAY <komadori@gekkou.co.uk>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "UZero"
+readme = "README.md"
+homepage = "https://github.com/komadori/uzero"
+repository = "https://github.com/komadori/uzero"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = { version = "0.2", default-features = false }
